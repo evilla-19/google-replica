@@ -81,7 +81,7 @@ body{
     display:block;
     margin:auto;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-    background: url("/images/microphone.png") no-repeat;
+    background: url("../images/microphone.png") no-repeat;
     background-position: 98%;
     background-size: 30px 30px;
 }
@@ -185,14 +185,14 @@ li{
 #notification{
     height:30px;
     width:30px;
-    background-image: url('/images/notifications.png'); 
+    background-image: url('../images/notifications.png'); 
     /* background-repeat:no-repeat; */
 }
 
 #user{
     height:40px;
     width:40px;
-    background-image: url('/images/user.png'); 
+    background-image: url('../images/user.png'); 
     /* background-repeat:no-repeat; */
 }
 
