@@ -74,16 +74,24 @@ body{
     max-width:584px;
     width: 584px;
     border:0px;
-    /* padding-left: 16px; */
+    font-size:15px;
+    padding-left: 16px;
     /* padding-top: 6px; */
     /* padding-right:9px; */
     display:block;
     margin:auto;
-    box-shadow: 0 2px 2px 0px rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
     background: url("/images/microphone.png") no-repeat;
     background-position: 98%;
     background-size: 30px 30px;
+}
 
+#searchbox:hover{
+    box-shadow: 0px 2px 6px 1px #Ccc;
+}
+
+#searchbox:focus{
+    outline:none;
 }
 
 .button-container{
@@ -104,9 +112,15 @@ body{
     display:inline-block;
     margin: 40px 2px 10px 2px;
     border: 1px solid #f2f2f2;
-    
+    border-radius:2px;
 }
 
+
+.buttons:hover{
+    border:1px solid #c6c6c6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
+    color:#222;
+}
 
 p {
     text-align: center;
@@ -120,7 +134,14 @@ a{
     text-decoration: none;
     color:#1a0dab;
     font-size:small;
+}
 
+a:hover{
+    text-decoration: underline;
+}
+
+#gmail-link, #images-link{
+    padding-right:12px;
 }
 
 .navbar-container{
@@ -134,8 +155,9 @@ a{
 }
 
 
+
+
 li{
-    
     display:inline-block;
 }
 
@@ -185,4 +207,43 @@ li{
     padding-bottom: 30px;
     margin:auto;
 } */
+
+#footer-bottom, #footer-top{
+    width:100%;
+    border: 1px solid rgba(128, 128, 128, 0.146);
+    height:40px;
+    background-color:#f2f2f2;
+    position:absolute;
+    color:#666;
+}
+
+.footer-navbar a{
+    color:#666;
+    padding-right:10px;
+}
+
+#footer-bottom{
+    bottom:0px;
+}
+
+#footer-top{
+    bottom:40px;
+}
+
+#footer-top li{
+    line-height:40px;
+    padding-left:20px;
+}
+
+.links-footer-left{
+    float:left;
+    line-height: 40px;
+    padding-left:20px;
+}
+
+.links-footer-right{
+    float:right;
+    line-height: 40px;
+    padding-right:20px;
+}
 
