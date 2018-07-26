@@ -177,7 +177,7 @@ li{
 #square-menu{
     height:30px;
     width:30px;
-    background-image: url('./images/squares_menu.png'); 
+    background-image: url('../images/squares_menu.png'); 
     /* background-repeat:no-repeat; */
 }
 
